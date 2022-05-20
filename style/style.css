@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'netflix';
+    src: url('../fonts/BebasNeue-Regular.otf') format('opentype');
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+header{
+    padding: 10px 20px;
+    background-color: black;
+    color: #E50914;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header > h1{
+    margin-left: 20px;
+    font-family: 'netflix', Arial, Helvetica, sans-serif;
+    font-size:6em;
+    font-variant: small-caps;
+    margin-right: 40px;
+    
+}
+
+header > nav{
+    margin-left: auto;
+            
+}
+
+nav > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(161, 161, 161);
+    padding: 0px 10px;
+    line-height: 40px;
+    border: none;
+    
+    
+
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-height: 600px;
+    background: linear-gradient(to bottom, rgba(0,0,0,.50),rgba(0,0,0,.90)100%), url(../resources/RappaBG2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+div.textos{
+    padding: 40px;
+}
+
+div > h1{
+    font-weight: 900;
+}
+div > h2{
+    padding-top: 10px;
+}
+
+
+.textos > p{
+    padding-top: 20px;
+    max-width: 70%;
+    min-width: 400px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+div.botoes{
+    margin-left: 80px;
+}
+
+.botao{
+    
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.botao:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+i{
+    margin-right: 15px;
+}
+
+.carrossel-clipes{
+    margin-top: 20px;
+}
+
+.capa-cd{
+    margin-right: 10px;
+}
